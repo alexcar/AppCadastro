@@ -15,6 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D0EF9371
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73179B74-72F5-416B-81ED-23FFE90E214B}"
 	ProjectSection(SolutionItems) = preProject
+		BancoDados\CriaBancoDados.sql = BancoDados\CriaBancoDados.sql
+		BancoDados\CriaUsuarioBancoDados.sql = BancoDados\CriaUsuarioBancoDados.sql
+		BancoDados\PopulaTabelaSexo.sql = BancoDados\PopulaTabelaSexo.sql
 		README.md = README.md
 	EndProjectSection
 EndProject
