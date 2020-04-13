@@ -28,13 +28,12 @@ Preparar o backend para testar o aplicativo manutenção de cadastro.
 `code\AppCadastroApi\Backend\VoeBem\VoeBem.sln`
 3. Realize a compilação da solução.
 4. Abra a console Package Manager e selecione como default o projeto AppCadastro.Api.
-4. Execute os seguintes comandos para que o Entity Framework Core possa criar as tabelas no banco de dados:<br>
+5. Execute os seguintes comandos para que o Entity Framework Core possa criar as tabelas no banco de dados:<br>
 `dotnet ef migrations add criacao_das_tabelas`<br>
 `dotnet ef database update`
-5. Execute no SQL Server Management Studio o seguinte arquivo:<br>
-`BancoDados\PopulaTabelaSexo.sql`
-5. Execute o arquivo
-5. Em seguida, execute a aplicação em modo debugger pressionando F5.
-6. O serviço Api deve ficar disponível no endereço:<br> 
+6. Execute no SQL Server Management Studio o seguinte arquivo:<br>
+`BancoDados\PopulaTabelaSexo.sql` para povoar a tabela Sexo.
+7. Em seguida, execute a aplicação em modo debugger pressionando F5.
+8. O serviço Api deve ficar disponível no endereço:<br> 
 `http://localhost:3653/api`
 
