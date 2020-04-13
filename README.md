@@ -18,7 +18,8 @@ Preparar o backend para testar o aplicativo manutenção de cadastro.
 
 #### Banco de Dados Sql Server
 1. Execute o SQL Server Management Studio e realize a autenticação com um usuário que tenha permissão para criar banco de dados.
-2. Execute no SQL Server Management Studio os seguintes arquivos:<br>
+2. Será necessário a execução dos arquivos abaixo no banco de dados. Analise os arquivos scripts e faça as devidas alterações caso seja necessário.
+3. Execute no SQL Server Management Studio os seguintes arquivos: Observação <br>
 `code\AppCadastroApi\BancoDados\CriaBancoDados.sql` para criar o banco de dados da aplicação.<br>
 `code\AppCadastroApi\BancoDados\CriaUsuarioBancoDados.sql` para criar o usuário do banco de dados.
 
