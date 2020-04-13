@@ -1,4 +1,4 @@
-# AppCadastro
+# Aplicativo Cadastro Api
 Aplicativo para realizar a manutenção de cadastro.
 
 ### Instrução de Instalação
