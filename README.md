@@ -19,7 +19,7 @@ Preparar o backend para testar o aplicativo manutenção de cadastro.
 #### Banco de Dados Sql Server
 1. Execute o SQL Server Management Studio e realize a autenticação com um usuário que tenha permissão para criar banco de dados.
 2. Será necessário a execução dos arquivos abaixo no banco de dados. Analise os arquivos scripts e faça as devidas alterações caso seja necessário.
-3. Execute no SQL Server Management Studio os seguintes arquivos: Observação <br>
+3. Execute no SQL Server Management Studio os seguintes arquivos: <br>
 `code\AppCadastroApi\BancoDados\CriaBancoDados.sql` para criar o banco de dados da aplicação.<br>
 `code\AppCadastroApi\BancoDados\CriaUsuarioBancoDados.sql` para criar o usuário do banco de dados.
 
@@ -32,7 +32,7 @@ Preparar o backend para testar o aplicativo manutenção de cadastro.
 5. Execute os seguintes comandos para que o Entity Framework Core possa criar as tabelas no banco de dados:<br>
 `dotnet ef migrations add criacao_das_tabelas`<br>
 `dotnet ef database update`
-6. Execute no SQL Server Management Studio o seguinte arquivo:<br>
+6. Execute no SQL Server Management Studio o seguinte arquivo script:<br>
 `code\AppCadastroApi\BancoDados\PopulaTabelaSexo.sql` para povoar a tabela Sexo no banco de dados.
 7. Escolha o projeto AppCadastro.Api para ser o projeto de execução se for necessário.
 8. Em seguida, execute a aplicação em modo debugger pressionando F5.
